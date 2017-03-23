@@ -20,8 +20,12 @@ The code provided here can be compiled using Visual Studio C++ to get a DLL to i
 
 To inject the DLL, you may use the usuall AppInit_DLLs registry key:
 HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows
+
 AppInit_Dlls = C:\PATH\TO\DLL.DLL (REG_SZ)
+
 LoadAppInit_DLLs = 0x00000001 (REG_DWORD)
+
 RequireSignedAppInit_DLLs = 0x00000000 (REG_DWORD)
+
 
 This code is provided "AS IS"and I do not recommend to use it unless you want to prove a point to the application developper. :)
