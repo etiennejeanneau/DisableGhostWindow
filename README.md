@@ -16,7 +16,7 @@ You may minimize the issue by reviewing the environment used by the app and see 
 The underlying issue can only be fixed by the application developper as he needs to handle user input at all times in his application.
 
 
-The code provided here can be compiled using Visual Studio C++ to get a DLL to inject in the bad behaving application to prevent the "not responding" message and the ability for users to kill the app. Instead, the application will appear frozen, just the way it was on Windows 2003 and older versions.
+The code provided here can be compiled using Visual Studio C++ to get a DLL to inject in the bad behaving application. It will prevent the "not responding" message and the ability for users to kill the app. Instead, the application will appear frozen, just the way it was on Windows 2003 and older versions.
 
 To inject the DLL, you may use the usuall AppInit_DLLs registry key:   
 HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Windows   
