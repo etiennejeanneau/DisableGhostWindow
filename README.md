@@ -1,4 +1,4 @@
-**This code is probably not what you're looking for, this article is probably better: [https://blogs.technet.microsoft.com/askperf/2010/09/10/de-ghosting-your-windows/](https://blogs.technet.microsoft.com/askperf/2010/09/10/de-ghosting-your-windows/).**
+**This code is probably not what you're looking for, this article is better: [https://blogs.technet.microsoft.com/askperf/2010/09/10/de-ghosting-your-windows/](https://blogs.technet.microsoft.com/askperf/2010/09/10/de-ghosting-your-windows/).**
 
 
 # DisableGhostWindow
